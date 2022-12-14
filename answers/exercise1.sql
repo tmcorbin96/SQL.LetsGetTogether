@@ -1,0 +1,1 @@
+select * from Enrolments left join Students on Students.Students.ID = Enrolments.StudentID;

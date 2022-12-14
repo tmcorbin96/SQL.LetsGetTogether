@@ -1,0 +1,1 @@
+select count(s.id) from Students group by Country ordered by count(s.id) desc;

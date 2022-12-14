@@ -1,0 +1,1 @@
+select count(s.id), Country from Students group by Country

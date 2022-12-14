@@ -1,0 +1,1 @@
+select count(s.id), Country from Students group by Country ordered by count(s.id) desc having count (s.id) > 10;
